@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 Product Manager
 
-## Getting Started
+একটি সহজ কিন্তু শক্তিশালী প্রোডাক্ট ম্যানেজমেন্ট ওয়েব অ্যাপ—যেখানে তুমি প্রোডাক্ট **Create, Read, Update, Delete (CRUD)** করতে পারো, সাথে আছে সার্চ, ফিল্টার, সোর্ট, প্যাজিনেশন ইত্যাদি।
 
-First, run the development server:
+🔗 **Live Demo:** https://product-manager-ass.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ➕ নতুন প্রোডাক্ট যোগ করা (Create)
+- 👀 সব প্রোডাক্ট দেখা (Read) — Grid/List view
+- ✏️ প্রোডাক্ট আপডেট/এডিট করা (Update)
+- 🗑️ প্রোডাক্ট ডিলিট করা (Delete) (কনফার্মেশনসহ)
+- 🔎 সার্চ (নাম/ক্যাটাগরি অনুযায়ী)
+- 🏷️ ফিল্টার (ক্যাটাগরি/স্টক/প্রাইস রেঞ্জ)
+- ↕️ সোর্টিং (Price, Date, Name)
+- 📄 প্যাজিনেশন/ইনফিনিট লোড
+- ✅ ফর্ম ভ্যালিডেশন ও টোস্ট নোটিফিকেশন
+- 📱 রেসপন্সিভ UI (মোবাইল-ফার্স্ট)
+- 🌙 লাইট/ডার্ক থিম (ঐচ্ছিক)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧰 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend:** React / Next.js, TypeScript (ঐচ্ছিক), Tailwind CSS / CSS Modules
+- **State:** React Query / Redux Toolkit / Context API (যেটা প্রযোজ্য)
+- **Forms:** React Hook Form + Zod/Yup (যদি ব্যবহার করা হয়)
+- **API:** REST API (Axios/Fetch)
+- **Deployment:** Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> নোট: প্রোজেক্টটি Vercel-এ ডিপ্লয় করা, তাই সম্ভাব্যভাবে **Next.js** ব্যবহার করা হয়েছে। যদি Vite-React হয়, নিচের স্ক্রিপ্ট সেকশনে বিকল্প কমান্ড দেওয়া আছে।
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
