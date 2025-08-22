@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "name": "Premium Wireless Headphones",
+    "description": "High-quality wireless headphones with noise cancellation and premium sound quality. Perfect for music lovers and professionals.",
+    "price": 299.99,
+    "category": "Electronics",
+    "image": "/premium-wireless-headphones.png",
+    "features": [
+      "Noise Cancellation",
+      "40-hour Battery",
+      "Premium Sound",
+      "Wireless"
+    ],
+    "inStock": true,
+    "createdAt": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Smart Fitness Tracker",
+    "description": "Advanced fitness tracker with heart rate monitoring, GPS, and comprehensive health insights.",
+    "price": 199.99,
+    "category": "Health & Fitness",
+    "image": "/static/images/fitness-tracker.png",
+    "features": [
+      "Heart Rate Monitor",
+      "GPS Tracking",
+      "Sleep Analysis",
+      "Waterproof"
+    ],
+    "inStock": true,
+    "createdAt": "2024-01-16T10:00:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Ergonomic Office Chair",
+    "description": "Professional ergonomic office chair designed for comfort and productivity during long work sessions.",
+    "price": 449.99,
+    "category": "Furniture",
+    "image": "/ergonomic-office-chair.png",
+    "features": [
+      "Lumbar Support",
+      "Adjustable Height",
+      "Breathable Mesh",
+      "360° Swivel"
+    ],
+    "inStock": true,
+    "createdAt": "2024-01-17T10:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Portable Bluetooth Speaker",
+    "description": "Compact and powerful Bluetooth speaker with exceptional sound quality and long battery life.",
+    "price": 89.99,
+    "category": "Electronics",
+    "image": "/portable-bluetooth-speaker.png",
+    "features": [
+      "Bluetooth 5.0",
+      "12-hour Battery",
+      "Waterproof",
+      "Compact Design"
+    ],
+    "inStock": true,
+    "createdAt": "2024-01-18T10:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Professional Camera Lens",
+    "description": "High-performance camera lens for professional photography with superior optical quality.",
+    "price": 899.99,
+    "category": "Photography",
+    "image": "/professional-camera-lens.png",
+    "features": [
+      "Professional Grade",
+      "Superior Optics",
+      "Weather Sealed",
+      "Fast Autofocus"
+    ],
+    "inStock": true,
+    "createdAt": "2024-01-19T10:00:00Z"
+  },
+  {
+    "id": "6",
+    "name": "Smart Home Hub",
+    "description": "Central control hub for all your smart home devices with voice control and automation features.",
+    "price": 149.99,
+    "category": "Smart Home",
+    "image": "/smart-home-hub.png",
+    "features": [
+      "Voice Control",
+      "Device Integration",
+      "Automation",
+      "Mobile App"
+    ],
+    "inStock": true,
+    "createdAt": "2024-01-20T10:00:00Z"
+  }
+]
