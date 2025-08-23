@@ -1,5 +1,9 @@
 # 🛍️ Product Management App
 
+একটি সহজ কিন্তু শক্তিশালী প্রোডাক্ট ম্যানেজমেন্ট ওয়েব অ্যাপ—যেখানে তুমি প্রোডাক্ট **Create, Read, Update, Delete (CRUD)** করতে পারো, সাথে আছে সার্চ, ফিল্টার, সোর্ট, প্যাজিনেশন ইত্যাদি।  
+
+🔗 **Live Demo:** https://product-management-ruddy-chi.vercel.app/  
+
 A simple product management application built with **Next.js 15 (App Router)** and **NextAuth.js**.  
 Users can explore products publicly, view product details, and after login, access a protected dashboard to add new products.
 
@@ -76,7 +80,3 @@ Users can explore products publicly, view product details, and after login, acce
    ```bash
    git clone https://github.com/JannatulLima9575/product-management.git
    cd product-management
-2. Install dependencies
-   npm install
-3. Run development server
-   npm run dev
